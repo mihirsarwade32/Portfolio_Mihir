@@ -1,0 +1,596 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.name {
+    background-color: #061424;
+    width: 100%;
+    height: 60px;
+}
+
+.top {
+    text-align: center;
+    margin: auto;
+    color: white;
+    padding-top: 3px;
+    font-family: 'Playball', cursive;
+    letter-spacing: 2px;
+}
+
+h4 {
+    text-align: center;
+    margin: auto;
+    color: white;
+    justify-self: center;
+}
+
+.main-back {
+    background-color: #11335c;
+    width: 100%;
+    height: 400px;
+
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    height: 360px;
+    justify-content: space-evenly;
+    /* background-image: url("download (1).jpg"); */
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    margin: 20px 5%;
+    border-radius: 25px;
+    position: absolute;
+    box-shadow: 3px 3px 3px #a09e9e;
+}
+
+.info {
+    color: black;
+    align-self: center;
+    width: 40%;
+    font-size: 18px;
+    font-weight: 50px;
+    font-family: 'Lora', serif;
+    line-height: 25px;
+}
+
+.profile-pic {
+    align-self: center;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    margin: 30px 0px 10px 10px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.profile-pic,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+}
+
+.flip-card-back {
+    background-color: rgb(151, 153, 155);
+    color: black;
+    transform: rotateY(180deg);
+}
+
+.skills-us {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: aqua;
+    padding: 55px 5px 5px 5px;
+    font-size: 29px;
+    margin: auto;
+    width: 15%;
+    height: 70px;
+}
+
+.skill-head {
+    background-color: black;
+    width: 100%;
+}
+
+.skill ul {
+    display: flex;
+    height: 250px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+
+.logo {
+    width: 110px;
+    margin: 0px 15px;
+}
+
+.nav {
+    width: 80%;
+    margin: 1% 10%;
+}
+
+.skill {
+    width: 100%;
+}
+
+.nav ul {
+    display: flex;
+    height: 80px;
+    background-color: rgb(180, 184, 182);
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav ul li {
+    list-style: none;
+    font-size: 20px;
+    margin: 5px 30px;
+    font-weight: bolder;
+    font-family: 'Pacifico', cursive;
+}
+
+.nav ul a:hover {
+    cursor: pointer;
+    color: rgb(218, 154, 43);
+    background-color: rgb(237, 227, 227);
+    box-shadow: 3px 3px 3px white;
+}
+
+.exp-block {
+    width: 100%;
+}
+
+.exp-block1 {
+    width: 90%;
+    /* height: 500px; */
+    margin: 20px 5%;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 4px grey;
+    background-color: whitesmoke;
+
+}
+
+.head-exp {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: black;
+    width: 90%;
+    height: 70px;
+    margin: 0px 10%;
+
+}
+
+.head-exp h3 {
+    margin-bottom: 25px;
+    margin-top: 10px;
+    margin-left: 34%;
+}
+
+.experience {
+    display: flex;
+    background-color: whitesmoke;
+    width: 80%;
+    height: 430px;
+    margin: 0px 10%;
+}
+
+.exp {
+    margin-left: 90px;
+    margin-top: 22px;
+    width: 800px;
+    font-size: 17px;
+}
+
+summary:hover {
+    cursor: pointer;
+}
+
+.infy {
+    margin-top: 22px;
+    margin-left: 25px;
+}
+
+.infy-logo {
+    border: 4px solid black;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.education {
+    background-color: black;
+    width: 100%;
+    height: 800px;
+    color: white;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.college,
+.diploma,
+.school {
+    display: flex;
+}
+
+.college-card {
+    height: 200px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 62%;
+    margin: 0px 18%;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.diploma-card,
+.school-card {
+    height: 150px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 62%;
+    margin: 0px 18%;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.edu-logo {
+    width: 170px;
+    height: 170px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.edu-logo-1 {
+    width: 170px;
+    height: 120px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.college-info,
+.diploma-info,
+.school-info {
+    margin-left: 120px;
+    width: 450px;
+    height: 150px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.diploma-info-1,
+.school-info-1 {
+    margin-left: 120px;
+    width: 450px;
+    height: 120px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    /* font-family: 'Handlee', cursive; */
+}
+
+
+.college-info p {
+    width: 400px;
+    height: 100px;
+    font-family: 'Handlee', cursive;
+}
+
+.diploma-info-1 p {
+    width: 400px;
+    height: 100px;
+    font-family: 'Handlee', cursive;
+}
+
+.school-info-1 p {
+    width: 400px;
+    height: 100px;
+    font-family: 'Handlee', cursive;
+}
+
+.certifications {
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.contact-us,
+.edu-us {
+    color: aqua;
+    padding: 5px 5px;
+    font-size: 29px;
+    margin: auto;
+    width: 15%;
+    font-family: 'Pacifico', cursive;
+}
+
+.cert-us {
+    color: aqua;
+    padding: 5px 5px;
+    font-size: 29px;
+    margin: auto;
+    width: 20%;
+    font-family: 'Pacifico', cursive;
+}
+
+.certifications {
+    background-color: black;
+    width: 100%;
+    height: 410px;
+}
+
+.html,
+.css {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
+.html-info {
+    color: white;
+    font-family: 'Satisfy', cursive;
+}
+
+.cert-logo-html {
+    width: 50px;
+    height: 50px;
+    margin-left: 250px;
+}
+
+.cert-logo-css {
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+}
+
+.html-info {
+    margin-left: 40px;
+    width: 300px;
+    height: 80px;
+}
+
+.first-cert,
+.second-cert,
+.third-cert {
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.contact-card {
+    width: 94%;
+    height: 470px;
+    margin: 0px 3% 12px 3%;
+}
+
+.contact {
+    background-color: black;
+    width: 100%;
+    height: 570px;
+}
+
+.contact-info {
+    display: flex;
+}
+
+.location {
+    margin-top: 55px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.personal-info {
+    margin: 50px 15px;
+    width: 565px;
+    height: 400px;
+    color: white;
+}
+
+.first-info {
+    display: flex;
+}
+
+.address,
+.mobile,
+.alt-mobile,
+.gmail {
+    display: flex;
+}
+
+.address-logo {
+    width: 23px;
+    height: 22px;
+    border-radius: 49px;
+    margin-top: 1px;
+    margin-left: 2px;
+}
+
+.my-info-logo {
+    width: 19px;
+    height: 18px;
+    border-radius: 49px;
+    margin-top: 1px;
+    margin-left: 2px;
+}
+
+.address-info {
+    margin: 3px 10px 10px 5px;
+    width: 215px;
+}
+
+.mnumber {
+    margin: 2px 0px 0px 3px;
+}
+
+.mobile,
+.alt-mobile {
+    margin-bottom: 5px;
+}
+
+.my-info {
+    margin: 2px 15px 10px 20px;
+}
+
+.form-name {
+    width: 230px;
+    margin: 10px 5px 9px 10px;
+    background-color: black;
+    color: aqua;
+    padding: 8px 0px 8px 8px;
+    border: 1px solid yellow;
+    border-radius: 2px;
+}
+
+.form-email {
+    width: 230px;
+    margin: 10px 5px 9px 10px;
+    background-color: black;
+    color: aqua;
+    padding: 8px 0px 8px 8px;
+    border: 1px solid yellow;
+    border-radius: 2px;
+}
+
+.form-number {
+    width: 488px;
+    margin: 10px 10px 9px 10px;
+    background-color: black;
+    color: aqua;
+    padding: 8px 0px 8px 8px;
+    border: 1px solid yellow;
+    border-radius: 2px;
+}
+
+.form-message {
+    margin: 10px 10px 9px 10px;
+    background-color: black;
+    color: aqua;
+    border: 1px solid yellow;
+    border-radius: 2px;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+.form-submit,
+.form-reset {
+    width: 230px;
+    height: 35px;
+    margin-left: 17px;
+    background-color: aqua;
+    border-radius: 6px;
+    font-weight: bolder;
+}
+
+.form-submit:hover,
+.form-reset:hover {
+    width: 250px;
+    height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+.info-logo {
+    width: 10px;
+}
+
+.foot {
+    background-color: #434141;
+    color: white;
+    /* display: flex; */
+    height: 70px;
+    width: 100%;
+    font-family: 'Satisfy', cursive;
+}
+
+.right ul li {
+    list-style: none;
+    margin: 0px 15px;
+}
+
+.left {
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.foot-logo {
+    width: 30px;
+    margin: 15px 7px 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.foot-logo:hover {
+    width: 35px;
+    margin: 8px 2px 8px 20px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.hori {
+    border: 1px solid darkorange;
+    width: 65vw;
+    margin-left: 200px;
+}
+
+.hori-exp {
+    border: 1px dashed black;
+}
+
+.horizontal {
+    border: 1px solid rgb(238, 247, 78);
+    margin: auto;
+    width: 50%;
+}
+
+.hori-contact {
+    border: 1px solid rgb(238, 247, 78);
+    margin: auto;
+    width: 50%;
+}
+
+.hori-contact-1 {
+    border: 1px solid rgb(238, 247, 78);
+    margin-left: 10%;
+    width: 70%;
+}
+
+.blank {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
